@@ -1,5 +1,4 @@
 #include "Graph.h"
-#include <iostream>
 
 Graph::Graph() {}
 
@@ -11,36 +10,34 @@ void Graph::addPort(Port* port) {
     ports.push_back(port);
 }
 
-void Graph::addEdge(Port* origin, Port* dest, int cost) {
-    if (!origin || !dest) return;
-
-    Edge* newEdge = new Edge(dest, cost);
-    origin->edges.push_back(newEdge);
+void Graph::addEdge(Port* origin, Port* dest, int cost, RouteData* route) {
+    if (!origin || !dest || !route) return;
+    GraphEdge* e = new GraphEdge(dest, cost, route);
+    origin->edges.push_back(e);
 }
 
-Port* Graph::findPort(const std::string& name) const {
+Port* Graph::getPortByName(const std::string& name) {
     for (Node* n = ports.begin(); n != nullptr; n = n->next) {
-        Port* port = (Port*)n->data;
-        if (port->name == name) return port;
+        Port* p = (Port*)n->data;
+        if (p->name == name) return p;
     }
     return nullptr;
 }
+
 
 LinkedList* Graph::getPorts() {
     return &ports;
 }
 
 void Graph::clear() {
-  
     for (Node* n = ports.begin(); n != nullptr; n = n->next) {
-        Port* port = (Port*)n->data;
-
-        for (Node* e = port->edges.begin(); e != nullptr; e = e->next) {
-            Edge* edge = (Edge*)e->data;
-            delete edge;
+        Port* p = (Port*)n->data;
+        // delete edges
+        for (Node* eNode = p->edges.begin(); eNode != nullptr; eNode = eNode->next) {
+            delete (GraphEdge*)eNode->data;
         }
-        port->edges.clear();
-        delete port;
+        p->edges.clear();
+        delete p;
     }
     ports.clear();
 }

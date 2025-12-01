@@ -2,37 +2,36 @@
 #define GRAPH_H
 
 #include <string>
-#include "../LinkedList/LinkedList.h" 
+#include "DataStructures/LinkedList/LinkedList.h"
+#include "Models/Port/Port.h"
+#include "Models/RouteData/RouteData.h"
 
+// Forward declaration
 struct Port;
 
-struct Edge {
+// Graph edge structure
+struct GraphEdge {
     Port* destination;
     int cost;
-    Edge* next;
+    RouteData* route;
+    GraphEdge* next;
 
-    Edge(Port* dest, int c) : destination(dest), cost(c), next(nullptr) {}
+    GraphEdge(Port* dest, int c, RouteData* r) 
+        : destination(dest), cost(c), route(r), next(nullptr) {}
 };
-
-struct Port {
-    std::string name;
-    LinkedList edges; 
-    
-    Port(const std::string& n) : name(n) {}
-};
-
 
 class Graph {
 private:
-    LinkedList ports; 
+    LinkedList ports; // List of Port*
 
 public:
     Graph();
     ~Graph();
 
     void addPort(Port* port);      
-    void addEdge(Port* origin, Port* dest, int cost); 
-    Port* findPort(const std::string& name) const; 
+    void addEdge(Port* origin, Port* dest, int cost, RouteData* route);
+
+    Port* getPortByName(const std::string& name);
 
     LinkedList* getPorts();
     void clear();     

@@ -1,0 +1,40 @@
+
+Hong Kong,22.31,114.17
+Jeddah,21.47,39.19
+Durban,−29.86,31.02
+Marseille,43.30,5.37
+Oslo,59.91,10.75
+Dubai,25.07,55.03
+Genoa,44.41,8.93
+Karachi,24.84,66.97
+Osaka,34.64,135.42
+Lisbon,38.71,−9.14
+Hamburg,53.55,9.99
+Rotterdam,51.92,4.48
+Sydney,−33.87,151.21
+Melbourne,−37.81,144.96
+Colombo,6.93,79.86
+Helsinki,60.17,24.94
+Montreal,45.50,−73.57
+Mumbai,18.98,72.82
+Manila,14.60,120.98
+Istanbul,41.01,28.98
+Jakarta,−6.21,106.85
+Tokyo,35.69,139.69
+Athens,37.98,23.73
+Cape Town,−33.92,18.42
+Singapore,1.35,103.82
+Stockholm,59.33,18.07
+Port Louis,−20.16,57.50
+Busan,35.18,129.07
+Shanghai,31.23,121.47
+Alexandria,31.20,29.92
+New York,40.71,−74.01
+Antwerp,51.22,4.40
+Los Angeles,34.05,−118.24
+Vancouver,49.28,−123.12
+Doha,25.29,51.53
+London,51.51,0.13
+Chittagong,22.34,91.82
+Copenhagen,55.68,12.57
+Abu Dhabi,24.47,54.37
