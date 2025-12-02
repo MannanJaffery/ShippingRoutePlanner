@@ -13,6 +13,8 @@ public:
     void parseRoutes(const std::string& filename);
     void parsePortCharges(const std::string& filename);
 
+    void parsePortCoordinates(const std::string& filename);
+
 private:
     Graph* graph;
 

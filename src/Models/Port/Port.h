@@ -22,8 +22,8 @@ public:
     std::string name;
     int charge;
     LinkedList edges; // LinkedList of PortEdge*
-
-    Port(const std::string& name);
+    double lat , lon;
+    Port(const std::string& n): name(n) , charge(0) , lat(0) , lon(0) {}
 };
 
 #endif

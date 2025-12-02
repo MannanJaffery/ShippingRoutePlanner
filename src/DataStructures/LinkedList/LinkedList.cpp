@@ -1,7 +1,7 @@
 #include "LinkedList.h"
 #include <iostream>
 
-LinkedList::LinkedList() 
+LinkedList::LinkedList()
     : head(nullptr), tail(nullptr), length(0)
 {
 }

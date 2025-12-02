@@ -1,40 +1,63 @@
-
-Hong Kong,22.31,114.17
-Jeddah,21.47,39.19
-Durban,−29.86,31.02
-Marseille,43.30,5.37
-Oslo,59.91,10.75
-Dubai,25.07,55.03
-Genoa,44.41,8.93
-Karachi,24.84,66.97
-Osaka,34.64,135.42
-Lisbon,38.71,−9.14
-Hamburg,53.55,9.99
-Rotterdam,51.92,4.48
-Sydney,−33.87,151.21
-Melbourne,−37.81,144.96
-Colombo,6.93,79.86
-Helsinki,60.17,24.94
-Montreal,45.50,−73.57
-Mumbai,18.98,72.82
-Manila,14.60,120.98
-Istanbul,41.01,28.98
-Jakarta,−6.21,106.85
-Tokyo,35.69,139.69
-Athens,37.98,23.73
-Cape Town,−33.92,18.42
+Hong Kong,22.30,114.17
+Shanghai,31.23,121.50
 Singapore,1.35,103.82
-Stockholm,59.33,18.07
-Port Louis,−20.16,57.50
-Busan,35.18,129.07
-Shanghai,31.23,121.47
-Alexandria,31.20,29.92
-New York,40.71,−74.01
+Kaohsiung,22.62,120.28
+Busan,35.10,129.07
+Ningbo,30.08,121.56
+Shenzhen,22.63,113.93
+Qingdao,36.07,120.58
+Tianjin,39.00,117.70
+Dubai,25.28,55.28
+Jeddah,21.54,39.17
+Port Said,31.26,32.30
+Alexandria,31.19,29.91
+Suez,29.96,32.55
+Hamburg,53.55,10.00
+Rotterdam,51.92,4.48
 Antwerp,51.22,4.40
-Los Angeles,34.05,−118.24
-Vancouver,49.28,−123.12
-Doha,25.29,51.53
-London,51.51,0.13
-Chittagong,22.34,91.82
-Copenhagen,55.68,12.57
-Abu Dhabi,24.47,54.37
+Bremerhaven,53.58,8.57
+London,51.51,-0.13
+Lisbon,38.72,-9.14
+Barcelona,41.39,2.17
+Marseille,43.29,5.36
+Genoa,44.41,8.93
+Venice,45.43,12.27
+Naples,40.85,14.27
+Los Angeles,33.74,-118.19
+Long Beach,33.75,-118.19
+Oakland,37.73,-122.27
+Houston,29.76,-95.37
+New York,40.71,-74.01
+New Jersey,40.72,-74.07
+Savannah,32.08,-81.10
+Charleston,32.78,-79.93
+Vancouver,49.28,-123.12
+Port Arthur,42.99,-82.43
+Toronto,43.66,-79.40
+Montreal,45.50,-73.57
+Sao Paulo,23.98,-46.30
+Santos,24.03,-46.33
+Rio de Janeiro,22.91,-43.19
+Salvador,12.97,-38.51
+Antofagasta,-23.65,-70.40
+Valparaiso,-33.04,-71.63
+Melbourne,-37.81,144.96
+Sydney,-33.87,151.21
+Brisbane,-27.39,153.17
+Port Hedland,-22.72,118.58
+Singapore,1.35,103.82
+Bangkok,13.63,100.56
+Laem Chabang,12.67,100.88
+Manila,14.60,120.97
+Cebu,10.31,123.88
+Penang,5.27,100.27
+Mumbai,18.97,72.82
+Jawaharlal Nehru,19.04,72.99
+Chennai,13.04,80.28
+Cochin,9.97,76.24
+Colombo,6.93,79.86
+Port Klang,3.01,101.53
+Kaohsiung,22.62,120.28
+Ningbo,30.08,121.56
+Tianjin,39.00,117.70
+Dalian,38.92,121.62

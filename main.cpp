@@ -10,6 +10,7 @@
 
 
 #include <iostream>
+
 #include "DataStructures/LinkedList/LinkedList.h"
 #include "DataStructures/Queue/Queue.h"
 #include "DataStructures/Stack/Stack.h"
@@ -70,23 +71,18 @@ int main() {
 
 
 
+    Graph g;
 
-
- Graph g;
-
-    // Parse files
+    // Parse your files
     FileParser parser(&g);
-    parser.parsePortCharges("public/PortChargers.txt"); // example: port_name charge
-    parser.parseRoutes("public/Routes.txt");           // example: origin destination date depTime arrTime cost company
+    parser.parsePortCharges("public/PortChargers.txt");
+    parser.parseRoutes("public/Routes.txt");
+    parser.parsePortCoordinates("public/coordinatesInDegree.txt");
 
-    // Create Graphics window and visualize
+    // Run graphics
     Graphics graphics(&g);
+    graphics.run();
 
-    graphics.run();  // this opens the SFML window and draws ports/routes
-
-    // Clear graph memory
     g.clear();
-
-   
     return 0;
 }
